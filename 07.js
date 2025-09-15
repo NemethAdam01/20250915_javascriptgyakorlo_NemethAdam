@@ -7,4 +7,5 @@ function osszefuz(tomb)
     }
     return str
 }
-console.log(osszefuz(["alma", "körte", "barack"]))
+let osszefuzendo_szoveg = ["alma", "körte", "barack"]
+console.log(osszefuz(osszefuzendo_szoveg))

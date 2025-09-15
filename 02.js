@@ -1,0 +1,5 @@
+let num = prompt("Írjon egy számot: ")
+if (num > 0) console.log("Pozitív")
+else if (num < 0) console.log("Negatív")
+else console.log("Nulla")
+console.log(typeof(num))

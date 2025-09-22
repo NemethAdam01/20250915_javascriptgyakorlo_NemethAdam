@@ -1,7 +1,7 @@
 let be = prompt("Írjon egy szót:")
 function check(szo)
 {
-    let tmp2 = szo.split("").reverse().join("")
+    let tmp2 = szo.split("").reverse().join("").toLower()
     
     if (szo == tmp2) {
         return true
